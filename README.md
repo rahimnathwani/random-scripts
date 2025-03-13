@@ -19,7 +19,7 @@ This will convert markdown links like:
 
 Useful for cleaning up articles with too many descriptive link texts when you want to make it clear where links lead to.
 
-It's particularly useful for reports that have come out of OpenAI's Deep Research. At the time of writing (2025-03-12), the UI displays only the domain name of each link, but when you copy the content to paste into a doc or whatever, the link text is the full title from doc. If you don't want this, just pipe the output through this script before pasting into your target, e.g
+It's particularly useful for reports that have come out of OpenAI's Deep Research. At the time of writing (2025-03-12), the UI displays only the domain name of each link, but when you copy the content to paste into a doc or whatever, the link text is the full title from doc. If you don't want this, just pipe the output through this script before pasting into your target, e.g.
 
 ```bash
 pbpaste | ./markdown-link-transformer.py | pbcopy
