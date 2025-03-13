@@ -43,7 +43,7 @@ This tool is particularly useful for diagnosing PDF text extraction issues or un
 
 ### 3. process-pdf.sh
 
-Processes a PDF file by extracting only grayscale images, negating them, and creating a new black-and-white PDF.
+Processes a PDF file by extracting only grayscale images, negating them, and creating a new black-and-white PDF. It's most useful for MRC PDFs, e.g. made with Internet Archive's archive-pdf-tools package.
 
 **Usage Example:**
 ```bash
@@ -51,8 +51,6 @@ Processes a PDF file by extracting only grayscale images, negating them, and cre
 ```
 
 This will create a new file called `original-bw.pdf` in the same directory as the input file, containing only grayscale images from the original PDF with inverted colors.
-
-Useful for preparing scanned documents for better readability or printing.
 
 ### 4. transcribe-mp3.sh
 
